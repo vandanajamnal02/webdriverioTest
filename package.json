@@ -23,6 +23,7 @@
     "chai": "^4.2.0",
     "chromedriver": "^86.0.0",
     "html-dnd": "^1.2.1",
-    "wdio-chromedriver-service": "^6.0.4"
+    "wdio-chromedriver-service": "^6.0.4",
+    "wdio-docker-service": "^3.0.0"
   }
 }
