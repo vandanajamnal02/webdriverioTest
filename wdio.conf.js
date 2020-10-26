@@ -6,7 +6,10 @@ exports.config = {
     reporters: [
         'dot',
         ['junit', {
-            outputDir: './results'
+            outputDir: './results',
+            outputFileFormat: function(options) {
+                return `results-${new Date().getTime()}.xml`
+            }
         }]
     ],
     //
